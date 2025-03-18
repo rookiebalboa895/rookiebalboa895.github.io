@@ -382,3 +382,47 @@ body {
         width: 100%;
     }
 }
+
+/*--------Location------/*
+
+/* location Section Styles */
+.operations-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.operations-section h2 {
+    color: #006838;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.operations-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.operations-content img {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.operations-text {
+    flex: 1;
+    line-height: 1.8;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .operations-content {
+        flex-direction: column;
+    }
+    
+    .operations-content img {
+        width: 100%;
+    }
+}
